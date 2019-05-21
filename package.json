@@ -1,0 +1,28 @@
+{
+  "name": "hyper-native-dark",
+  "version": "0.0.1",
+  "description": "Dark terminal with a native look",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablopunk/hyper-native-dark.git"
+  },
+  "keywords": [
+    "hyper",
+    "native",
+    "dark",
+    "terminal",
+    "black",
+    "mac",
+    "command"
+  ],
+  "author": "Pablo Varela <https://pablo.life>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablopunk/hyper-native-dark/issues"
+  },
+  "homepage": "https://github.com/pablopunk/hyper-native-dark#readme"
+}
