@@ -6,12 +6,12 @@ const styles = fs.readFileSync(path.join(__dirname, 'index.css'), 'utf-8')
 const backgroundColor = '#1E1F28'
 const foregroundColor = '#ccc'
 
-const red = '#ff5c57'
-const green = '#5af78e'
-const yellow = '#f3f99d'
-const blue = '#57c7ff'
-const magenta = '#ff6ac1'
-const cyan = '#9aedfe'
+const red = '#DF5252'
+const green = '#7CE698'
+const yellow = '#DEB85F'
+const blue = '#2B88A9'
+const magenta = '#B464C1'
+const cyan = '#57A59E'
 
 const colors = {
   black: backgroundColor,
