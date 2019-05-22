@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/pablopunk/hyper-native-dark#readme",
   "dependencies": {
-    "sick-colors": "*"
+    "hyper-mac": "*",
+    "hyper-sick": "*"
   }
 }
