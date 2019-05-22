@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const styles = fs.readFileSync(path.join(__dirname, 'index.css'), 'utf-8')
+const css = fs.readFileSync(path.join(__dirname, 'index.css'), 'utf-8')
 
 const backgroundColor = '#1E1F28'
 const foregroundColor = '#ccc'
@@ -34,10 +34,10 @@ const colors = {
 
 exports.decorateConfig = config => ({
   ...config,
-  padding: '7px 7px',
+  padding: '5px',
   backgroundColor,
   foregroundColor,
-  css: (config.css || '') + styles,
+  css: (config.css || '') + css,
   colors
 })
 
@@ -48,11 +48,9 @@ exports.decorateBrowserOptions = defaults => ({
 })
 
 exports.getTabsProps = (parentProps, props) => {
-  if (props.tabs.length <= 1) {
-    document.body.classList.add('closed-tabs')
-  } else {
-    document.body.classList.remove('closed-tabs')
-  }
+  props.tabs.length < 2
+    ? document.body.classList.add('closed-tabs')
+    : document.body.classList.remove('closed-tabs')
 
   return {
     ...parentProps,
