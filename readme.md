@@ -1,6 +1,6 @@
 # hyper-native-dark
 
-Combines [hyper-mac](https://github.com/pablopunk/hyper-mac) with [sick colors](https://github.com/pablopunk/sick-colors).
+Combines [hyper-mac](https://github.com/pablopunk/hyper-mac) with [hyper-sick](https://github.com/pablopunk/hyper-sick) colors.
 
 
 ## Install
