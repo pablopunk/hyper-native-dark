@@ -1,5 +1,5 @@
 const hyperMac = require('hyper-mac')
-const hyperSick = require('sick-colors')
+const hyperSick = require('hyper-sick')
 
 module.exports = {
   ...hyperMac,
