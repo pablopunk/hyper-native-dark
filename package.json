@@ -1,6 +1,6 @@
 {
   "name": "hyper-native-dark",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Dark terminal with a native look",
   "main": "index.js",
   "scripts": {},
