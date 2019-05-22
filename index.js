@@ -4,7 +4,7 @@ let colors = require('sick-colors')
 
 const css = fs.readFileSync(path.join(__dirname, 'index.css'), 'utf-8')
 
-const colors = {
+colors = {
   ...colors,
   lightBlack: colors.black,
   lightRed: colors.red,
