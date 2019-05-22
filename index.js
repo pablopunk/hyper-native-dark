@@ -1,42 +1,26 @@
 const fs = require('fs')
 const path = require('path')
+let colors = require('sick-colors')
 
 const css = fs.readFileSync(path.join(__dirname, 'index.css'), 'utf-8')
 
-const backgroundColor = '#1E1F28'
-const foregroundColor = '#ccc'
-
-const red = '#FF6B6B'
-const green = '#2CF6B3'
-const yellow = '#FFE66D'
-const blue = '#809BCE'
-const magenta = '#CE92CB'
-const cyan = '#4ECDC4'
-
 const colors = {
-  black: backgroundColor,
-  red,
-  green,
-  yellow,
-  blue,
-  magenta,
-  cyan,
-  white: '#F7FFF7',
-  lightBlack: '#666',
-  lightRed: red,
-  lightGreen: green,
-  lightYellow: yellow,
-  lightBlue: blue,
-  lightMagenta: magenta,
-  lightCyan: cyan,
-  lightWhite: foregroundColor,
+  ...colors,
+  lightBlack: colors.black,
+  lightRed: colors.red,
+  lightGreen: colors.green,
+  lightYellow: colors.yellow,
+  lightBlue: colors.blue,
+  lightMagenta: colors.magenta,
+  lightCyan: colors.cyan,
+  lightWhite: colors.foreground,
 }
 
 exports.decorateConfig = config => ({
   ...config,
   padding: '5px',
-  backgroundColor,
-  foregroundColor,
+  backgroundColor: colors.background,
+  foregroundColor: colors.foreground,
   css: (config.css || '') + css,
   colors
 })

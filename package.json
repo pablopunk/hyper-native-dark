@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pablopunk/hyper-native-dark/issues"
   },
-  "homepage": "https://github.com/pablopunk/hyper-native-dark#readme"
+  "homepage": "https://github.com/pablopunk/hyper-native-dark#readme",
+  "dependencies": {
+    "sick-colors": "^1.0.1"
+  }
 }
