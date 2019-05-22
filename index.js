@@ -13,7 +13,7 @@ colors = {
   lightBlue: colors.blue,
   lightMagenta: colors.magenta,
   lightCyan: colors.cyan,
-  lightWhite: colors.foreground,
+  lightWhite: colors.foreground
 }
 
 exports.decorateConfig = config => ({
