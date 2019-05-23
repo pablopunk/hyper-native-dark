@@ -1,4 +1,4 @@
-# hyper-native-dark
+# hyper-native-dark ![npm](https://img.shields.io/npm/dt/hyper-native-dark.svg?style=social)
 
 Combines [hyper-mac](https://github.com/pablopunk/hyper-mac) with [hyper-sick](https://github.com/pablopunk/hyper-sick) colors.
 
